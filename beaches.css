@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(cape_town_beach_llundudno.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.content {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.place {
+  text-align: left;
+  color: antiquewhite;
+  margin: 10px;
+}
+
+.list {
+  text-align: left;
+  margin: 10px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.flex-container > a {
+  background-color: none;
+  border: 5px solid white;
+  height: 300px;
+  width: 250px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1 {
+  background-image: url(glen\ beach\ card.jpeg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background-image: url(Muizenberg4\ card.jpeg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: url(boulder.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.click {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.click:hover {
+  color: white;
+}
+
+.option {
+  text-align: center;
+  color: red;
+  font-size: 45px;
+}
+
+.paragraph {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+}

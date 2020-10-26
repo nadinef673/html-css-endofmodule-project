@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(cover.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.main-nav li.active a {
+  border: 1px solid white;
+}
+
+.main-nav li a:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+.row {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading {
+  position: absolute;
+  width: 1200px;
+  margin-left: 0px;
+  margin-top: 0px;
+  top: 50%;
+  right: 50%;
+}
+
+.h1 {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 275px;
+}
+
+.head {
+  position: absolute;
+  width: 1200px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  top: auto;
+  flex-direction: row;
+  align-content: -30%;
+  background-color: black;
+}
+
+.flex-container > div {
+  border: 5px solid white;
+  height: 300px;
+  width: 250px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1 {
+  background-image: url(///home/user/Desktop/Project/Card%20mountain.jpeg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background-image: url(///home/user/Desktop/Project/beach%20card.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: url(///home/user/Desktop/Project/arc%20card.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.button {
+  background-color: none;
+  border: 5px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: alias;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  transition: 1.2s ease;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.main-section {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+}
+
+.main-section h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: cursive;
+}
+
+.main-section h4 {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.click {
+  text-align: center;
+  color: yellow;
+  text-transform: uppercase;
+  background-color: black;
+}

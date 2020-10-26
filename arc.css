@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(old.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+.content {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.place {
+  text-align: left;
+  color: antiquewhite;
+  margin: 10px;
+}
+
+.list {
+  text-align: left;
+  margin: 10px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.flex-container > a {
+  background-color: none;
+  border: 5px solid white;
+  height: 300px;
+  width: 250px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1 {
+  background-image: url(unnamed.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background-image: url(robben\ island\ card.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: url(bo\ kaap\ card.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.option {
+  text-align: center;
+  color: red;
+  font-size: 45px;
+}
+
+.paragraph {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.list {
+  text-align: left;
+  color: whitesmoke;
+}
+
+.click {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
