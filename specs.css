@@ -99,7 +99,7 @@ header {
 }
 
 .card1 {
-  background-image: url(///home/user/Desktop/Project/Card%20mountain.jpeg);
+  background-image: url(Card\ mountain.jpeg);
   height: 100px;
   width: 50px;
   align-content: center;
@@ -108,7 +108,7 @@ header {
 }
 
 .card2 {
-  background-image: url(///home/user/Desktop/Project/beach%20card.jpg);
+  background-image: url(beach\ card.jpg);
   height: 100px;
   width: 50px;
   align-content: center;
@@ -117,7 +117,7 @@ header {
 }
 
 .card3 {
-  background-image: url(///home/user/Desktop/Project/arc%20card.jpg);
+  background-image: url(arc\ card.jpg);
   height: 100px;
   width: 50px;
   align-content: center;
