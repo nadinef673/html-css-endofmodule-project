@@ -38,6 +38,7 @@ header {
   border: 1px solid white;
   background-color: white;
   color: black;
+  transition: 0.06s ease;
 }
 
 .logo img {
@@ -74,4 +75,18 @@ td {
 .row {
   color: black;
   background-color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  ...;
+}
+
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+@media (max-height: 800px) {
+  p {
+    font-size: 10px;
+  }
 }
